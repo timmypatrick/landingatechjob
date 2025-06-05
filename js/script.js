@@ -6,7 +6,7 @@ function ctaCountdown(){
   const minutes = document.querySelector(".call-to-action .minutes");
   const seconds = document.querySelector(".call-to-action .seconds");
 
-  const targetDate = new Date("June 10 2025 20:00:00").getTime();
+  const targetDate = new Date("June 5 2025 24:00:00").getTime();
   const currentDate = new Date().getTime();
   const distance = targetDate - currentDate;
 
@@ -57,7 +57,7 @@ function summaryCountdown(){
   const minutes = document.querySelector(".summary .minutes");
   const seconds = document.querySelector(".summary .seconds");
 
-  const targetDate = new Date("June 10 2025 20:00:00").getTime();
+  const targetDate = new Date("June 5 2025 24:00:00").getTime();
   const currentDate = new Date().getTime();
   const distance = targetDate - currentDate;
 
